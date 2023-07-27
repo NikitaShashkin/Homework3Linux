@@ -1,0 +1,18 @@
+   0 mkdir -p /tmp/hw3/nikita/ && touch /tmp/hw3/nikita/newfile.txt
+   1 date >> /tmp/hw3/nikita/newfile.txt
+   2 cat /tmp/hw3/nikita/newfile.txt 
+   3 echo "Homework 3" >> /tmp/hw3/nikita/newfile.txt  
+   4 cat /tmp/hw3/nikita/newfile.txt 
+   5 df -h
+   6 df -h | head-2 >> /tmp/hw3/nikita/newfile.txt 
+   7 df -h | head -2 >> /tmp/hw3/nikita/newfile.txt 
+   8 cat /tmp/hw3/nikita/newfile.txt 
+   9 history
+  10 history | tail -5 >> /tmp/hw3/nikita/newfile.txt 
+  11 cat /tmp/hw3/nikita/newfile.txt 
+  12 cat /proc/cpuinfo 
+  13 cat /proc/cpuinfo | head -2 | tial -1 >> /tmp/hw3/nikita/newfile.txt 
+  14 cat /proc/cpuinfo | head -2 | tail -1 >> /tmp/hw3/nikita/newfile.txt 
+  15 cat /tmp/hw3/nikita/newfile.txt 
+  16 history
+  17 history > /tmp/history.txt
